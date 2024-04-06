@@ -1,0 +1,19 @@
+# dune exec bin/main.exe
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/miraflax/.cache/dune/db
+# Workspace root: /home/miraflax/csci1103/ps4-Miraflax/src/best
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/miraflax/.opam/csci1103/bin/ocamlc.opt -config > /tmp/dune_956f56_output
+$ (cd _build/default && /home/miraflax/.opam/csci1103/bin/ocamlc.opt -opaque -g -bin-annot -I bin/.main.eobjs/byte -I /home/miraflax/.opam/csci1103/lib/animate -I /home/miraflax/.opam/csci1103/lib/cairo2 -I /home/miraflax/.opam/csci1103/lib/cairo2-gtk -I /home/miraflax/.opam/csci1103/lib/lablgtk2 -I /home/miraflax/.opam/csci1103/lib/ocaml/threads -no-alias-deps -opaque -o bin/.main.eobjs/byte/dune__exe__Main.cmo -c -impl bin/main.ml)
+$ (cd _build/default && /home/miraflax/.opam/csci1103/bin/ocamlopt.opt -opaque -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I /home/miraflax/.opam/csci1103/lib/animate -I /home/miraflax/.opam/csci1103/lib/cairo2 -I /home/miraflax/.opam/csci1103/lib/cairo2-gtk -I /home/miraflax/.opam/csci1103/lib/lablgtk2 -I /home/miraflax/.opam/csci1103/lib/ocaml/threads -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /home/miraflax/.opam/csci1103/bin/ocamlopt.opt -opaque -g -o bin/main.exe /home/miraflax/.opam/csci1103/lib/ocaml/unix.cmxa -I /home/miraflax/.opam/csci1103/lib/ocaml /home/miraflax/.opam/csci1103/lib/ocaml/threads/threads.cmxa -I /home/miraflax/.opam/csci1103/lib/ocaml /home/miraflax/.opam/csci1103/lib/lablgtk2/lablgtk.cmxa /home/miraflax/.opam/csci1103/lib/lablgtk2/gtkThread.cmx -I /home/miraflax/.opam/csci1103/lib/lablgtk2 /home/miraflax/.opam/csci1103/lib/animate/color.cmxa -I /home/miraflax/.opam/csci1103/lib/animate /home/miraflax/.opam/csci1103/lib/ocaml/bigarray.cmxa -I /home/miraflax/.opam/csci1103/lib/ocaml /home/miraflax/.opam/csci1103/lib/cairo2/cairo.cmxa -I /home/miraflax/.opam/csci1103/lib/cairo2 /home/miraflax/.opam/csci1103/lib/cairo2-gtk/cairo_gtk.cmxa -I /home/miraflax/.opam/csci1103/lib/cairo2-gtk /home/miraflax/.opam/csci1103/lib/animate/image.cmxa -I /home/miraflax/.opam/csci1103/lib/animate /home/miraflax/.opam/csci1103/lib/animate/animate.cmxa -I /home/miraflax/.opam/csci1103/lib/animate /home/miraflax/.opam/csci1103/lib/animate/lib.cmxa -I /home/miraflax/.opam/csci1103/lib/animate bin/.main.eobjs/native/dune__exe__Main.cmx)
